@@ -1,0 +1,50 @@
+.home {
+	display: flex;
+	width: 100%;
+}
+
+
+
+.left{
+	width: 50%;
+	flex: 1;
+}
+
+.right {
+    width: 50%;
+    min-height: 100vh;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url("https://www.klarna.com/demo/static/images/landing_bg.png");
+}
+
+.wrapper{
+	max-width: 570px;
+	padding: 0 20px 30px 20px;
+	margin: 0 auto;
+}
+
+.page__title{
+	color: #17120f;
+	font-size: 64px;
+	font-weight: bold;
+	line-height: 80px;
+	margin-top: 108px;
+}
+
+.page__paragraph{
+	color: #17120f;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+
+
+.selection__container{
+	margin-top: 30px;
+    width: auto;
+}
